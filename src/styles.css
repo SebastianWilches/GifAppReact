@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
+
+:root {
+    --text: 'Rubik', sans-serif;
+}
+
+body {
+    width: 90%;
+    margin: 5rem auto;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    /* background-size: cover; */
+    font-family: var(--text);
+
+}
+
+.principal-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+input {
+    background-color: white;
+    border-radius: 0.5rem;
+    border: 1px solid #7076e7;
+    outline: none;
+    padding: 10px 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
